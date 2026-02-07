@@ -37,7 +37,7 @@
             height: 5vh;
         }
         .nav-logo {
-            font-size: 1rem;
+            font-size: 1.1rem;
             font-weight: 600;
             color: #1d1d1f;
             text-decoration: none;
@@ -47,7 +47,7 @@
             gap: 28px;
         }
         .nav-links a {
-            font-size: 0.75rem;
+            font-size: 0.85rem;
             color: #1d1d1f;
             text-decoration: none;
             opacity: 0.8;
@@ -72,14 +72,14 @@
             width: 100%;
         }
         .page-header h1 {
-            font-size: 3rem;
+            font-size: clamp(2.2rem, 5vw, 3rem);
             font-weight: 600;
             letter-spacing: -0.02em;
             margin-bottom: 8px;
             color: #ffffff;
         }
         .page-header p {
-            font-size: 1.2rem;
+            font-size: clamp(1rem, 1.8vw, 1.2rem);
             color: #86868b;
         }
 
@@ -106,12 +106,12 @@
             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
         }
         .tool-card h2 {
-            font-size: 1.3rem;
+            font-size: clamp(1.1rem, 2vw, 1.3rem);
             font-weight: 600;
             margin-bottom: 8px;
         }
         .tool-card p {
-            font-size: 0.95rem;
+            font-size: clamp(0.85rem, 1.5vw, 0.95rem);
             color: #86868b;
             margin-bottom: 16px;
         }
@@ -136,7 +136,7 @@
             border-top: 1px solid #d2d2d7;
         }
         .footer-content {
-            font-size: 0.75rem;
+            font-size: 0.8rem;
             color: #86868b;
         }
         .footer-links {
@@ -152,14 +152,6 @@
         }
         .footer-links a:hover {
             color: #1d1d1f;
-        }
-        @media (max-width: 768px) {
-            .page-header h1 {
-                font-size: 2.2rem;
-            }
-            .page-header p {
-                font-size: 1rem;
-            }
         }
     </style>
 </head>
